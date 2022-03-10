@@ -23,4 +23,10 @@ describe Solver do
     end
 	end
 
+	describe 'fizzbuzz method' do
+		it 'return fizz when number is divisible by 3' do
+			expect(@solver.fizzbuzz(6)).to eql('fizz')
+		end
+	end
+
 end
