@@ -13,5 +13,7 @@ class Solver
   def fizzbuzz(num)
     result = ''
     result += 'fizz' if (num % 3).zero?
+    result += 'buzz' if (num % 5).zero?
+    result == '' ? num.to_s : result
   end
 end
