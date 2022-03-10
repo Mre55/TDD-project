@@ -27,5 +27,8 @@ describe Solver do
     it 'return fizz when number is divisible by 3' do
       expect(@solver.fizzbuzz(6)).to eql('fizz')
     end
+    it 'return buzz when number is divisible by 5' do
+      expect(@solver.fizzbuzz(10)).to eql('buzz')
+    end
   end
 end
