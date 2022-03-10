@@ -33,5 +33,9 @@ describe Solver do
     it 'return fizzbuzz when number is divisible by 3 and 5' do
       expect(@solver.fizzbuzz(15)).to eql('fizzbuzz')
     end
+    it 'return the number in string form when number is not divisible by 3 or 5' do
+      expect(@solver.fizzbuzz(7)).to eql('7')
+    end
+
   end
 end
