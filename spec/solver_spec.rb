@@ -10,4 +10,11 @@ describe Solver do
       expect(@solver.factorial(5)).to eql(120)
     end
   end
+
+  describe 'Calculate the factorial of the number' do
+    it 'return 1 when number is 0' do
+      expect(@solver.factorial(0)).to eql(1)
+    end
+  end
+
 end
