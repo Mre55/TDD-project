@@ -17,4 +17,10 @@ describe Solver do
     end
   end
 
+  describe 'Reverse the string given' do
+    it 'return the reversed string' do
+			expect(@solver.reverse('hello')).to eql('olleh')
+    end
+	end
+
 end
