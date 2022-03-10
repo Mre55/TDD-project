@@ -19,14 +19,13 @@ describe Solver do
 
   describe 'Reverse the string given' do
     it 'return the reversed string' do
-			expect(@solver.reverse('hello')).to eql('olleh')
+      expect(@solver.reverse('hello')).to eql('olleh')
     end
-	end
+  end
 
-	describe 'fizzbuzz method' do
-		it 'return fizz when number is divisible by 3' do
-			expect(@solver.fizzbuzz(6)).to eql('fizz')
-		end
-	end
-
+  describe 'fizzbuzz method' do
+    it 'return fizz when number is divisible by 3' do
+      expect(@solver.fizzbuzz(6)).to eql('fizz')
+    end
+  end
 end
