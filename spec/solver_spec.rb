@@ -17,4 +17,10 @@ describe Solver do
     end
   end
 
+  describe 'Calculate the factorial of the number' do
+    it 'return an error when negative numbers' do
+      expect(@solver.factorial(-10)).to eql('No negative allowed')
+    end
+  end
+
 end
